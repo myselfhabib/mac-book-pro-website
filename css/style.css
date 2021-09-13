@@ -1,10 +1,18 @@
+/* font family */
+
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+
+/* title name color style */
+
 .fasion{
   color: rgb(8, 107, 153);
 }
+
+/* serach box */
+
 .search-field {
   border: none;
   border-radius: 50px;
@@ -22,6 +30,9 @@ body {
   width: unset;
   flex-wrap: nowrap;
 }
+
+/* search button section */
+
 .search-button {
   padding: 10px 50px;
   border-radius: 24px;
@@ -31,7 +42,9 @@ body {
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
   /* border: 1px solid black; */
+
   text-align: center;
   width: 100%;
   margin: auto;
@@ -40,6 +53,8 @@ body {
   justify-content: center;
   margin-top: 10px;
 }
+/* card with background color on it */
+
 .single-product {
   padding: 10px;
   transition: 0.6s;
@@ -50,6 +65,8 @@ body {
   width: auto;
   border: 1px solid gray;
 }
+/* card hover */
+
 .single-product:hover {
   box-shadow: 4px 4px 7px rgb(75, 121, 180);
   border-radius: 10px;
@@ -71,6 +88,9 @@ body {
 .cart-main {
   padding-right: 30px;
 }
+
+/* media querires */
+
 @media only screen and (max-width: 768px) {
   #all-products {
     display: grid;
